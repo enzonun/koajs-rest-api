@@ -1,0 +1,4484 @@
+{
+    "roles": [
+        {
+            "id": 1,
+            "rolename": "admin",
+            "description": "administrator role - all permissions",
+            "createdAt": "2022-08-10T04:00:00.000Z",
+            "updatedAt": "2022-08-10T04:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "rolename": "user",
+            "description": "user role",
+            "createdAt": "2022-08-10T04:00:00.000Z",
+            "updatedAt": "2022-08-10T04:00:00.000Z"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "alias": "Enzo Nunez",
+            "username": "enzonunezm@gmail.com",
+            "password": "enzo.nunez",
+            "createdAt": "2022-10-08T03:00:00.000Z",
+            "updatedAt": "2022-10-08T03:00:00.000Z",
+            "roleId": 1
+        },
+        {
+            "id": 1,
+            "alias": "John Doe",
+            "username": "john@gmail.com",
+            "password": "john.doe",
+            "createdAt": "2022-10-08T03:00:00.000Z",
+            "updatedAt": "2022-10-08T03:00:00.000Z",
+            "roleId": 1
+        }
+    ],
+    "artists": [
+        {
+            "id": 1,
+            "name": "AC\/DC"
+        },
+        {
+            "id": 12,
+            "name": "Black Sabbath"
+        },
+        {
+            "id": 22,
+            "name": "Led Zeppelin"
+        },
+        {
+            "id": 50,
+            "name": "Metallica"
+        },
+        {
+            "id": 51,
+            "name": "Queen"
+        },
+        {
+            "id": 78,
+            "name": "Def Leppard"
+        },
+        {
+            "id": 90,
+            "name": "Iron Maiden"
+        },
+        {
+            "id": 94,
+            "name": "Jimi Hendrix"
+        },
+        {
+            "id": 128,
+            "name": "Rush"
+        },
+        {
+            "id": 144,
+            "name": "The Who"
+        }
+    ],
+    "albums": [
+        {
+            "id": 1,
+            "title": "For Those About To Rock We Salute You",
+            "artistId": 1
+        },
+        {
+            "id": 4,
+            "title": "Let There Be Rock",
+            "artistId": 1
+        },
+        {
+            "id": 16,
+            "title": "Black Sabbath",
+            "artistId": 12
+        },
+        {
+            "id": 17,
+            "title": "Black Sabbath Vol. 4 (Remaster)",
+            "artistId": 12
+        },
+        {
+            "id": 30,
+            "title": "BBC Sessions [Disc 1] [Live]",
+            "artistId": 22
+        },
+        {
+            "id": 35,
+            "title": "Garage Inc. (Disc 1)",
+            "artistId": 50
+        },
+        {
+            "id": 36,
+            "title": "Greatest Hits II",
+            "artistId": 51
+        },
+        {
+            "id": 44,
+            "title": "Physical Graffiti [Disc 1]",
+            "artistId": 22
+        },
+        {
+            "id": 67,
+            "title": "Vault: Def Leppard's Greatest Hits",
+            "artistId": 78
+        },
+        {
+            "id": 94,
+            "title": "A Matter of Life and Death",
+            "artistId": 90
+        },
+        {
+            "id": 95,
+            "title": "A Real Dead One",
+            "artistId": 90
+        },
+        {
+            "id": 96,
+            "title": "A Real Live One",
+            "artistId": 90
+        },
+        {
+            "id": 97,
+            "title": "Brave New World",
+            "artistId": 90
+        },
+        {
+            "id": 98,
+            "title": "Dance Of Death",
+            "artistId": 90
+        },
+        {
+            "id": 99,
+            "title": "Fear Of The Dark",
+            "artistId": 90
+        },
+        {
+            "id": 100,
+            "title": "Iron Maiden",
+            "artistId": 90
+        },
+        {
+            "id": 101,
+            "title": "Killers",
+            "artistId": 90
+        },
+        {
+            "id": 102,
+            "title": "Live After Death",
+            "artistId": 90
+        },
+        {
+            "id": 103,
+            "title": "Live At Donington 1992 (Disc 1)",
+            "artistId": 90
+        },
+        {
+            "id": 104,
+            "title": "Live At Donington 1992 (Disc 2)",
+            "artistId": 90
+        },
+        {
+            "id": 105,
+            "title": "No Prayer For The Dying",
+            "artistId": 90
+        },
+        {
+            "id": 106,
+            "title": "Piece Of Mind",
+            "artistId": 90
+        },
+        {
+            "id": 107,
+            "title": "Powerslave",
+            "artistId": 90
+        },
+        {
+            "id": 108,
+            "title": "Rock In Rio [CD1]",
+            "artistId": 90
+        },
+        {
+            "id": 109,
+            "title": "Rock In Rio [CD2]",
+            "artistId": 90
+        },
+        {
+            "id": 110,
+            "title": "Seventh Son of a Seventh Son",
+            "artistId": 90
+        },
+        {
+            "id": 111,
+            "title": "Somewhere in Time",
+            "artistId": 90
+        },
+        {
+            "id": 112,
+            "title": "The Number of The Beast",
+            "artistId": 90
+        },
+        {
+            "id": 113,
+            "title": "The X Factor",
+            "artistId": 90
+        },
+        {
+            "id": 114,
+            "title": "Virtual XI",
+            "artistId": 90
+        },
+        {
+            "id": 120,
+            "title": "Are You Experienced?",
+            "artistId": 94
+        },
+        {
+            "id": 127,
+            "title": "BBC Sessions [Disc 2] [Live]",
+            "artistId": 22
+        },
+        {
+            "id": 128,
+            "title": "Coda",
+            "artistId": 22
+        },
+        {
+            "id": 129,
+            "title": "Houses Of The Holy",
+            "artistId": 22
+        },
+        {
+            "id": 130,
+            "title": "In Through The Out Door",
+            "artistId": 22
+        },
+        {
+            "id": 131,
+            "title": "IV",
+            "artistId": 22
+        },
+        {
+            "id": 132,
+            "title": "Led Zeppelin I",
+            "artistId": 22
+        },
+        {
+            "id": 133,
+            "title": "Led Zeppelin II",
+            "artistId": 22
+        },
+        {
+            "id": 134,
+            "title": "Led Zeppelin III",
+            "artistId": 22
+        },
+        {
+            "id": 135,
+            "title": "Physical Graffiti [Disc 2]",
+            "artistId": 22
+        },
+        {
+            "id": 136,
+            "title": "Presence",
+            "artistId": 22
+        },
+        {
+            "id": 137,
+            "title": "The Song Remains The Same (Disc 1)",
+            "artistId": 22
+        },
+        {
+            "id": 138,
+            "title": "The Song Remains The Same (Disc 2)",
+            "artistId": 22
+        },
+        {
+            "id": 148,
+            "title": "Black Album",
+            "artistId": 50
+        },
+        {
+            "id": 149,
+            "title": "Garage Inc. (Disc 2)",
+            "artistId": 50
+        },
+        {
+            "id": 150,
+            "title": "Kill 'Em All",
+            "artistId": 50
+        },
+        {
+            "id": 151,
+            "title": "Load",
+            "artistId": 50
+        },
+        {
+            "id": 152,
+            "title": "Master Of Puppets",
+            "artistId": 50
+        },
+        {
+            "id": 153,
+            "title": "ReLoad",
+            "artistId": 50
+        },
+        {
+            "id": 154,
+            "title": "Ride The Lightning",
+            "artistId": 50
+        },
+        {
+            "id": 155,
+            "title": "St. Anger",
+            "artistId": 50
+        },
+        {
+            "id": 156,
+            "title": "...And Justice For All",
+            "artistId": 50
+        },
+        {
+            "id": 185,
+            "title": "Greatest Hits I",
+            "artistId": 51
+        },
+        {
+            "id": 186,
+            "title": "News Of The World",
+            "artistId": 51
+        },
+        {
+            "id": 196,
+            "title": "Retrospective I (1974-1980)",
+            "artistId": 128
+        },
+        {
+            "id": 221,
+            "title": "My Generation - The Very Best Of The Who",
+            "artistId": 144
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "name": "Rock"
+        },
+        {
+            "id": 3,
+            "name": "Metal"
+        },
+        {
+            "id": 6,
+            "name": "Blues"
+        },
+        {
+            "id": 13,
+            "name": "Heavy Metal"
+        }
+    ],
+    "musictracks": [
+        {
+            "id": 1,
+            "name": "For Those About To Rock (We Salute You)",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 6,
+            "name": "Put The Finger On You",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 7,
+            "name": "Let's Get It Up",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 8,
+            "name": "Inject The Venom",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 9,
+            "name": "Snowballed",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 10,
+            "name": "Evil Walks",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 11,
+            "name": "C.O.D.",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 12,
+            "name": "Breaking The Rules",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 13,
+            "name": "Night Of The Long Knives",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 14,
+            "name": "Spellbound",
+            "albumId": 1,
+            "genreId": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson"
+        },
+        {
+            "id": 15,
+            "name": "Go Down",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 16,
+            "name": "Dog Eat Dog",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 17,
+            "name": "Let There Be Rock",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 18,
+            "name": "Bad Boy Boogie",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 19,
+            "name": "Problem Child",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 20,
+            "name": "Overdose",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 21,
+            "name": "Hell Ain't A Bad Place To Be",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 22,
+            "name": "Whole Lotta Rosie",
+            "albumId": 4,
+            "genreId": 1,
+            "composer": "AC\/DC"
+        },
+        {
+            "id": 149,
+            "name": "Black Sabbath",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 150,
+            "name": "The Wizard",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 151,
+            "name": "Behind The Wall Of Sleep",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 152,
+            "name": "N.I.B.",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 153,
+            "name": "Evil Woman",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 154,
+            "name": "Sleeping Village",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 155,
+            "name": "Warning",
+            "albumId": 16,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 156,
+            "name": "Wheels Of Confusion \/ The Straightener",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 157,
+            "name": "Tomorrow's Dream",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 158,
+            "name": "Changes",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 159,
+            "name": "FX",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 160,
+            "name": "Supernaut",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 161,
+            "name": "Snowblind",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 162,
+            "name": "Cornucopia",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 163,
+            "name": "Laguna Sunrise",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 164,
+            "name": "St. Vitus Dance",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 165,
+            "name": "Under The Sun\/Every Day Comes and Goes",
+            "albumId": 17,
+            "genreId": 3,
+            "composer": "Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne"
+        },
+        {
+            "id": 337,
+            "name": "You Shook Me",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "J B Lenoir\/Willie Dixon"
+        },
+        {
+            "id": 338,
+            "name": "I Can't Quit You Baby",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Willie Dixon"
+        },
+        {
+            "id": 339,
+            "name": "Communication Breakdown",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 340,
+            "name": "Dazed and Confused",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 341,
+            "name": "The Girl I Love She Got Long Black Wavy Hair",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Estes\/John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 342,
+            "name": "What is and Should Never Be",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 343,
+            "name": "Communication Breakdown(2)",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 344,
+            "name": "Travelling Riverside Blues",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Johnson\/Robert Plant"
+        },
+        {
+            "id": 345,
+            "name": "Whole Lotta Love",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones\/Robert Plant\/Willie Dixon"
+        },
+        {
+            "id": 346,
+            "name": "Somethin' Else",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Bob Cochran\/Sharon Sheeley"
+        },
+        {
+            "id": 347,
+            "name": "Communication Breakdown(3)",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 348,
+            "name": "I Can't Quit You Baby(2)",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Willie Dixon"
+        },
+        {
+            "id": 349,
+            "name": "You Shook Me(2)",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "J B Lenoir\/Willie Dixon"
+        },
+        {
+            "id": 350,
+            "name": "How Many More Times",
+            "albumId": 30,
+            "genreId": 1,
+            "composer": "Chester Burnett\/Jimmy Page\/John Bonham\/John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 408,
+            "name": "Free Speech For The Dumb",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Molaney\/Morris\/Roberts\/Wainwright"
+        },
+        {
+            "id": 409,
+            "name": "It's Electric",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Harris\/Tatler"
+        },
+        {
+            "id": 410,
+            "name": "Sabbra Cadabra",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Black Sabbath"
+        },
+        {
+            "id": 411,
+            "name": "Turn The Page",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Seger"
+        },
+        {
+            "id": 412,
+            "name": "Die Die My Darling",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Danzig"
+        },
+        {
+            "id": 413,
+            "name": "Loverman",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Cave"
+        },
+        {
+            "id": 414,
+            "name": "Mercyful Fate",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Diamond\/Shermann"
+        },
+        {
+            "id": 415,
+            "name": "Astronomy",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "A.Bouchard\/J.Bouchard\/S.Pearlman"
+        },
+        {
+            "id": 416,
+            "name": "Whiskey In The Jar",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Traditional"
+        },
+        {
+            "id": 417,
+            "name": "Tuesday's Gone",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Collins\/Van Zandt"
+        },
+        {
+            "id": 418,
+            "name": "The More I See",
+            "albumId": 35,
+            "genreId": 3,
+            "composer": "Molaney\/Morris\/Roberts\/Wainwright"
+        },
+        {
+            "id": 419,
+            "name": "A Kind Of Magic",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Roger Taylor"
+        },
+        {
+            "id": 420,
+            "name": "Under Pressure",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen & David Bowie"
+        },
+        {
+            "id": 421,
+            "name": "Radio GA GA",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Roger Taylor"
+        },
+        {
+            "id": 422,
+            "name": "I Want It All",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 423,
+            "name": "I Want To Break Free",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "John Deacon"
+        },
+        {
+            "id": 424,
+            "name": "Innuendo",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 425,
+            "name": "It's A Hard Life",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Freddie Mercury"
+        },
+        {
+            "id": 426,
+            "name": "Breakthru",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 427,
+            "name": "Who Wants To Live Forever",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Brian May"
+        },
+        {
+            "id": 428,
+            "name": "Headlong",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 429,
+            "name": "The Miracle",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 430,
+            "name": "I'm Going Slightly Mad",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 431,
+            "name": "The Invisible Man",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 432,
+            "name": "Hammer To Fall",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Brian May"
+        },
+        {
+            "id": 433,
+            "name": "Friends Will Be Friends",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Freddie Mercury & John Deacon"
+        },
+        {
+            "id": 434,
+            "name": "The Show Must Go On",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 435,
+            "name": "One Vision",
+            "albumId": 36,
+            "genreId": 1,
+            "composer": "Queen"
+        },
+        {
+            "id": 550,
+            "name": "Custard Pie",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 551,
+            "name": "The Rover",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 552,
+            "name": "In My Time Of Dying",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 553,
+            "name": "Houses Of The Holy",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 554,
+            "name": "Trampled Under Foot",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "John Paul Jones"
+        },
+        {
+            "id": 555,
+            "name": "Kashmir",
+            "albumId": 44,
+            "genreId": 1,
+            "composer": "John Bonham"
+        },
+        {
+            "id": 826,
+            "name": "Pour Some Sugar On Me",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 827,
+            "name": "Photograph",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 828,
+            "name": "Love Bites",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 829,
+            "name": "Let's Get Rocked",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 830,
+            "name": "Two Steps Behind [Acoustic Version]",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 831,
+            "name": "Animal",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 832,
+            "name": "Heaven Is",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 833,
+            "name": "Rocket",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 834,
+            "name": "When Love & Hate Collide",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 835,
+            "name": "Action",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 836,
+            "name": "Make Love Like A Man",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 837,
+            "name": "Armageddon It",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 838,
+            "name": "Have You Ever Needed Someone So Bad",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 839,
+            "name": "Rock Of Ages",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 840,
+            "name": "Hysteria",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 841,
+            "name": "Bringin' On The Heartbreak",
+            "albumId": 67,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1201,
+            "name": "Different World",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1202,
+            "name": "These Colours Don't Run",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1203,
+            "name": "Brighter Than a Thousand Suns",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1204,
+            "name": "The Pilgrim",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1205,
+            "name": "The Longest Day",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1206,
+            "name": "Out of the Shadows",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1207,
+            "name": "The Reincarnation of Benjamin Breeg",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1208,
+            "name": "For the Greater Good of God",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1209,
+            "name": "Lord of Light",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1210,
+            "name": "The Legacy",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1211,
+            "name": "Hallowed Be Thy name (Live) [Non Album Bonus Track]",
+            "albumId": 94,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1212,
+            "name": "The Number Of The Beast",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1213,
+            "name": "The Trooper",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1214,
+            "name": "Prowler",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1215,
+            "name": "Transylvania",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1216,
+            "name": "Remember Tomorrow",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Paul Di'Anno\/Steve Harris"
+        },
+        {
+            "id": 1217,
+            "name": "Where Eagles Dare",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1218,
+            "name": "Sanctuary",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "David Murray\/Paul Di'Anno\/Steve Harris"
+        },
+        {
+            "id": 1219,
+            "name": "Running Free",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Paul Di'Anno\/Steve Harris"
+        },
+        {
+            "id": 1220,
+            "name": "Run To The Hilss",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1221,
+            "name": "2 Minutes To Midnight",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1222,
+            "name": "Iron Maiden",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1223,
+            "name": "Hallowed Be Thy name",
+            "albumId": 95,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1224,
+            "name": "Be Quick Or Be Dead",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Janick Gers"
+        },
+        {
+            "id": 1225,
+            "name": "From Here To Eternity",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1226,
+            "name": "Can I Play With Madness",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1227,
+            "name": "Wasting Love",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Janick Gers"
+        },
+        {
+            "id": 1228,
+            "name": "Tailgunner",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1229,
+            "name": "The Evil That Men Do",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1230,
+            "name": "Afraid To Shoot Strangers",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1231,
+            "name": "Bring Your Daughter... To The Slaughter",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Bruce Dickinson"
+        },
+        {
+            "id": 1232,
+            "name": "Heaven Can Wait",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1233,
+            "name": "The Clairvoyant",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1234,
+            "name": "Fear Of The Dark",
+            "albumId": 96,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1235,
+            "name": "The Wicker Man",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1236,
+            "name": "Ghost Of The Navigator",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1237,
+            "name": "Brave New World",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/David Murray\/Steve Harris"
+        },
+        {
+            "id": 1238,
+            "name": "Blood Brothers",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1239,
+            "name": "The Mercenary",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1240,
+            "name": "Dream Of Mirrors",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1241,
+            "name": "The Fallen Angel",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Adrian Smith\/Steve Harris"
+        },
+        {
+            "id": 1242,
+            "name": "The Nomad",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1243,
+            "name": "Out Of The Silent Planet",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1244,
+            "name": "The Thin Line Between Love & Hate",
+            "albumId": 97,
+            "genreId": 1,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1245,
+            "name": "Wildest Dreams",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Adrian Smith\/Steve Harris"
+        },
+        {
+            "id": 1246,
+            "name": "Rainmaker",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Bruce Dickinson\/David Murray\/Steve Harris"
+        },
+        {
+            "id": 1247,
+            "name": "No More Lies",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1248,
+            "name": "Montsegur",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Bruce Dickinson\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1249,
+            "name": "Dance Of Death",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1250,
+            "name": "Gates Of Tomorrow",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Bruce Dickinson\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1251,
+            "name": "New Frontier",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Nicko McBrain"
+        },
+        {
+            "id": 1252,
+            "name": "Paschendale",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Adrian Smith\/Steve Harris"
+        },
+        {
+            "id": 1253,
+            "name": "Face In The Sand",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1254,
+            "name": "Age Of Innocence",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1255,
+            "name": "Journeyman",
+            "albumId": 98,
+            "genreId": 13,
+            "composer": "Bruce Dickinson\/David Murray\/Steve Harris"
+        },
+        {
+            "id": 1256,
+            "name": "Be Quick Or Be Dead",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/Janick Gers"
+        },
+        {
+            "id": 1257,
+            "name": "From Here To Eternity",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1258,
+            "name": "Afraid To Shoot Strangers",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1259,
+            "name": "Fear Is The Key",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/Janick Gers"
+        },
+        {
+            "id": 1260,
+            "name": "Childhood's End",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1261,
+            "name": "Wasting Love",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/Janick Gers"
+        },
+        {
+            "id": 1262,
+            "name": "The Fugitive",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1263,
+            "name": "Chains Of Misery",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/David Murray"
+        },
+        {
+            "id": 1264,
+            "name": "The Apparition",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1265,
+            "name": "Judas Be My Guide",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Bruce Dickinson\/David Murray"
+        },
+        {
+            "id": 1266,
+            "name": "Weekend Warrior",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1267,
+            "name": "Fear Of The Dark",
+            "albumId": 99,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1268,
+            "name": "01 - Prowler",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1269,
+            "name": "02 - Sanctuary",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "David Murray\/Paul Di'Anno\/Steve Harris"
+        },
+        {
+            "id": 1270,
+            "name": "03 - Remember Tomorrow",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Harris\/Paul Di´Anno"
+        },
+        {
+            "id": 1271,
+            "name": "04 - Running Free",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Harris\/Paul Di´Anno"
+        },
+        {
+            "id": 1272,
+            "name": "05 - Phantom of the Opera",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1273,
+            "name": "06 - Transylvania",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1274,
+            "name": "07 - Strange World",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1275,
+            "name": "08 - Charlotte the Harlot",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Murray  Dave"
+        },
+        {
+            "id": 1276,
+            "name": "09 - Iron Maiden",
+            "albumId": 100,
+            "genreId": 6,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1277,
+            "name": "The Ides Of March",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1278,
+            "name": "Wrathchild",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1279,
+            "name": "Murders In The Rue Morgue",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1280,
+            "name": "Another Life",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1281,
+            "name": "Genghis Khan",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1282,
+            "name": "Innocent Exile",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Di´Anno\/Harris"
+        },
+        {
+            "id": 1283,
+            "name": "Killers",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1284,
+            "name": "Prodigal Son",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1285,
+            "name": "Purgatory",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1286,
+            "name": "Drifter",
+            "albumId": 101,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1287,
+            "name": "Intro- Churchill S Speech",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": null
+        },
+        {
+            "id": 1288,
+            "name": "Aces High",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": null
+        },
+        {
+            "id": 1289,
+            "name": "2 Minutes To Midnight",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Smith\/Dickinson"
+        },
+        {
+            "id": 1290,
+            "name": "The Trooper",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1291,
+            "name": "Revelations",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Dickinson"
+        },
+        {
+            "id": 1292,
+            "name": "Flight Of Icarus",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Smith\/Dickinson"
+        },
+        {
+            "id": 1293,
+            "name": "Rime Of The Ancient Mariner",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 1294,
+            "name": "Powerslave",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 1295,
+            "name": "The Number Of The Beast",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1296,
+            "name": "Hallowed Be Thy name",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1297,
+            "name": "Iron Maiden",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1298,
+            "name": "Run To The Hills",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1299,
+            "name": "Running Free",
+            "albumId": 102,
+            "genreId": 3,
+            "composer": "Harris\/Di Anno"
+        },
+        {
+            "id": 1300,
+            "name": "Wrathchild",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1301,
+            "name": "Acacia Avenue",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": null
+        },
+        {
+            "id": 1302,
+            "name": "Children Of The Damned",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1303,
+            "name": "Die With Your Boots On",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1304,
+            "name": "Phantom Of The Opera",
+            "albumId": 102,
+            "genreId": 13,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1305,
+            "name": "Be Quick Or Be Dead",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1306,
+            "name": "The Number Of The Beast",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1307,
+            "name": "Wrathchild",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1308,
+            "name": "From Here To Eternity",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1309,
+            "name": "Can I Play With Madness",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1310,
+            "name": "Wasting Love",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1311,
+            "name": "Tailgunner",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1312,
+            "name": "The Evil That Men Do",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1313,
+            "name": "Afraid To Shoot Strangers",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1314,
+            "name": "Fear Of The Dark",
+            "albumId": 103,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1315,
+            "name": "Bring Your Daughter... To The Slaughter...",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1316,
+            "name": "The Clairvoyant",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1317,
+            "name": "Heaven Can Wait",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1318,
+            "name": "Run To The Hills",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1319,
+            "name": "2 Minutes To Midnight",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1320,
+            "name": "Iron Maiden",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1321,
+            "name": "Hallowed Be Thy name",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1322,
+            "name": "The Trooper",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1323,
+            "name": "Sanctuary",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1324,
+            "name": "Running Free",
+            "albumId": 104,
+            "genreId": 1,
+            "composer": null
+        },
+        {
+            "id": 1325,
+            "name": "Tailgunner",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1326,
+            "name": "Holy Smoke",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1327,
+            "name": "No Prayer For The Dying",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1328,
+            "name": "Public Enema Number One",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/David Murray"
+        },
+        {
+            "id": 1329,
+            "name": "Fates Warning",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1330,
+            "name": "The Assassin",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1331,
+            "name": "Run Silent Run Deep",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1332,
+            "name": "Hooks In You",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1333,
+            "name": "Bring Your Daughter... ...To The Slaughter",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Bruce Dickinson"
+        },
+        {
+            "id": 1334,
+            "name": "Mother Russia",
+            "albumId": 105,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1335,
+            "name": "Where Eagles Dare",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1336,
+            "name": "Revelations",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Bruce Dickinson"
+        },
+        {
+            "id": 1337,
+            "name": "Flight Of The Icarus",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1338,
+            "name": "Die With Your Boots On",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1339,
+            "name": "The Trooper",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1340,
+            "name": "Still Life",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1341,
+            "name": "Quest For Fire",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1342,
+            "name": "Sun And Steel",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1343,
+            "name": "To Tame A Land",
+            "albumId": 106,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1344,
+            "name": "Aces High",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1345,
+            "name": "2 Minutes To Midnight",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Smith\/Dickinson"
+        },
+        {
+            "id": 1346,
+            "name": "Losfer Words",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1347,
+            "name": "Flash of The Blade",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Dickinson"
+        },
+        {
+            "id": 1348,
+            "name": "Duelists",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1349,
+            "name": "Back in the Village",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Dickinson\/Smith"
+        },
+        {
+            "id": 1350,
+            "name": "Powerslave",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Dickinson"
+        },
+        {
+            "id": 1351,
+            "name": "Rime of the Ancient Mariner",
+            "albumId": 107,
+            "genreId": 3,
+            "composer": "Harris"
+        },
+        {
+            "id": 1352,
+            "name": "Intro",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": null
+        },
+        {
+            "id": 1353,
+            "name": "The Wicker Man",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1354,
+            "name": "Ghost Of The Navigator",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1355,
+            "name": "Brave New World",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Bruce Dickinson\/David Murray\/Steve Harris"
+        },
+        {
+            "id": 1356,
+            "name": "Wrathchild",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1357,
+            "name": "2 Minutes To Midnight",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson"
+        },
+        {
+            "id": 1358,
+            "name": "Blood Brothers",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1359,
+            "name": "Sign Of The Cross",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1360,
+            "name": "The Mercenary",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1361,
+            "name": "The Trooper",
+            "albumId": 108,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1362,
+            "name": "Dream Of Mirrors",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1363,
+            "name": "The Clansman",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1364,
+            "name": "The Evil That Men Do",
+            "albumId": 109,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Bruce Dickinson\/Steve Harris"
+        },
+        {
+            "id": 1365,
+            "name": "Fear Of The Dark",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1366,
+            "name": "Iron Maiden",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1367,
+            "name": "The Number Of The Beast",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1368,
+            "name": "Hallowed Be Thy name",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1369,
+            "name": "Sanctuary",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "David Murray\/Paul Di'Anno\/Steve Harris"
+        },
+        {
+            "id": 1370,
+            "name": "Run To The Hills",
+            "albumId": 109,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1371,
+            "name": "Moonchild",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Adrian Smith; Bruce Dickinson"
+        },
+        {
+            "id": 1372,
+            "name": "Infinite Dreams",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1373,
+            "name": "Can I Play With Madness",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Adrian Smith; Bruce Dickinson; Steve Harris"
+        },
+        {
+            "id": 1374,
+            "name": "The Evil That Men Do",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Adrian Smith; Bruce Dickinson; Steve Harris"
+        },
+        {
+            "id": 1375,
+            "name": "Seventh Son of a Seventh Son",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1376,
+            "name": "The Prophecy",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Dave Murray; Steve Harris"
+        },
+        {
+            "id": 1377,
+            "name": "The Clairvoyant",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Adrian Smith; Bruce Dickinson; Steve Harris"
+        },
+        {
+            "id": 1378,
+            "name": "Only the Good Die Young",
+            "albumId": 110,
+            "genreId": 3,
+            "composer": "Bruce Dickinson; Harris"
+        },
+        {
+            "id": 1379,
+            "name": "Caught Somewhere in Time",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1380,
+            "name": "Wasted Years",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Adrian Smith"
+        },
+        {
+            "id": 1381,
+            "name": "Sea of Madness",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Adrian Smith"
+        },
+        {
+            "id": 1382,
+            "name": "Heaven Can Wait",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1383,
+            "name": "Stranger in a Strange Land",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Adrian Smith"
+        },
+        {
+            "id": 1384,
+            "name": "Alexander the Great",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1385,
+            "name": "De Ja Vu",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1386,
+            "name": "The Loneliness of the Long Dis",
+            "albumId": 111,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1387,
+            "name": "22 Acacia Avenue",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Steve Harris"
+        },
+        {
+            "id": 1388,
+            "name": "Children of the Damned",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1389,
+            "name": "Gangland",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Clive Burr\/Steve Harris"
+        },
+        {
+            "id": 1390,
+            "name": "Hallowed Be Thy name",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1391,
+            "name": "Invaders",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1392,
+            "name": "Run to the Hills",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1393,
+            "name": "The Number Of The Beast",
+            "albumId": 112,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1394,
+            "name": "The Prisoner",
+            "albumId": 112,
+            "genreId": 3,
+            "composer": "Adrian Smith\/Steve Harris"
+        },
+        {
+            "id": 1395,
+            "name": "Sign Of The Cross",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1396,
+            "name": "Lord Of The Flies",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1397,
+            "name": "Man On The Edge",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers"
+        },
+        {
+            "id": 1398,
+            "name": "Fortunes Of War",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1399,
+            "name": "Look For The Truth",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1400,
+            "name": "The Aftermath",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1401,
+            "name": "Judgement Of Heaven",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1402,
+            "name": "Blood On The World's Hands",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1403,
+            "name": "The Edge Of Darkness",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1404,
+            "name": "2 A.M.",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1405,
+            "name": "The Unbeliever",
+            "albumId": 113,
+            "genreId": 1,
+            "composer": "Janick Gers\/Steve Harris"
+        },
+        {
+            "id": 1406,
+            "name": "Futureal",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Steve Harris"
+        },
+        {
+            "id": 1407,
+            "name": "The Angel And The Gambler",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1408,
+            "name": "Lightning Strikes Twice",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "David Murray\/Steve Harris"
+        },
+        {
+            "id": 1409,
+            "name": "The Clansman",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1410,
+            "name": "When Two Worlds Collide",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/David Murray\/Steve Harris"
+        },
+        {
+            "id": 1411,
+            "name": "The Educated Fool",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1412,
+            "name": "Don't Look To The Eyes Of A Stranger",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Steve Harris"
+        },
+        {
+            "id": 1413,
+            "name": "Como Estais Amigos",
+            "albumId": 114,
+            "genreId": 1,
+            "composer": "Blaze Bayley\/Janick Gers"
+        },
+        {
+            "id": 1479,
+            "name": "Foxy Lady",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1480,
+            "name": "Manic Depression",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1481,
+            "name": "Red House",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1482,
+            "name": "Can You See Me",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1483,
+            "name": "Love Or Confusion",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1484,
+            "name": "I Don't Live Today",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1485,
+            "name": "May This Be Love",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1486,
+            "name": "Fire",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1487,
+            "name": "Third Stone From The Sun",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1488,
+            "name": "Remember",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1489,
+            "name": "Are You Experienced?",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1490,
+            "name": "Hey Joe",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Billy Roberts"
+        },
+        {
+            "id": 1491,
+            "name": "Stone Free",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1492,
+            "name": "Purple Haze",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1493,
+            "name": "51st Anniversary",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1494,
+            "name": "The Wind Cries Mary",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1495,
+            "name": "Highway Chile",
+            "albumId": 120,
+            "genreId": 1,
+            "composer": "Jimi Hendrix"
+        },
+        {
+            "id": 1577,
+            "name": "Immigrant Song",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1578,
+            "name": "Heartbreaker",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1579,
+            "name": "Since I've Been Loving You",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1580,
+            "name": "Black Dog",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1581,
+            "name": "Dazed And Confused",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Led Zeppelin"
+        },
+        {
+            "id": 1582,
+            "name": "Stairway To Heaven",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1583,
+            "name": "Going To California",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1584,
+            "name": "That's The Way",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1585,
+            "name": "Whole Lotta Love (Medley)",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Arthur Crudup\/Bernard Besman\/Bukka White\/Doc Pomus\/John Bonham\/John Lee Hooker\/John Paul Jones\/Mort Shuman\/Robert Plant\/Willie Dixon"
+        },
+        {
+            "id": 1586,
+            "name": "Thank You",
+            "albumId": 127,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1587,
+            "name": "We're Gonna Groove",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Ben E.King\/James Bethea"
+        },
+        {
+            "id": 1588,
+            "name": "Poor Tom",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1589,
+            "name": "I Can't Quit You Baby",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Willie Dixon"
+        },
+        {
+            "id": 1590,
+            "name": "Walter's Walk",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1591,
+            "name": "Ozone Baby",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1592,
+            "name": "Darlene",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Bonham, John Paul Jones"
+        },
+        {
+            "id": 1593,
+            "name": "Bonzo's Montreux",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "John Bonham"
+        },
+        {
+            "id": 1594,
+            "name": "Wearing And Tearing",
+            "albumId": 128,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1595,
+            "name": "The Song Remains The Same",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Jimmy Page & Robert Plant\/Robert Plant"
+        },
+        {
+            "id": 1596,
+            "name": "The Rain Song",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Jimmy Page & Robert Plant\/Robert Plant"
+        },
+        {
+            "id": 1597,
+            "name": "Over The Hills And Far Away",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Jimmy Page & Robert Plant\/Robert Plant"
+        },
+        {
+            "id": 1598,
+            "name": "The Crunge",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1599,
+            "name": "Dancing Days",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Jimmy Page & Robert Plant\/Robert Plant"
+        },
+        {
+            "id": 1600,
+            "name": "D'Yer Mak'er",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1601,
+            "name": "No Quarter",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "John Paul Jones"
+        },
+        {
+            "id": 1602,
+            "name": "The Ocean",
+            "albumId": 129,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1603,
+            "name": "In The Evening",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant & John Paul Jones"
+        },
+        {
+            "id": 1604,
+            "name": "South Bound Saurez",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "John Paul Jones & Robert Plant"
+        },
+        {
+            "id": 1605,
+            "name": "Fool In The Rain",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant & John Paul Jones"
+        },
+        {
+            "id": 1606,
+            "name": "Hot Dog",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "Jimmy Page & Robert Plant"
+        },
+        {
+            "id": 1607,
+            "name": "Carouselambra",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "John Paul Jones, Jimmy Page & Robert Plant"
+        },
+        {
+            "id": 1608,
+            "name": "All My Love",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "Robert Plant & John Paul Jones"
+        },
+        {
+            "id": 1609,
+            "name": "I'm Gonna Crawl",
+            "albumId": 130,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant & John Paul Jones"
+        },
+        {
+            "id": 1610,
+            "name": "Black Dog",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones"
+        },
+        {
+            "id": 1611,
+            "name": "Rock & Roll",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones, John Bonham"
+        },
+        {
+            "id": 1612,
+            "name": "The Battle Of Evermore",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1613,
+            "name": "Stairway To Heaven",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1614,
+            "name": "Misty Mountain Hop",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones"
+        },
+        {
+            "id": 1615,
+            "name": "Four Sticks",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1616,
+            "name": "Going To California",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1617,
+            "name": "When The Levee Breaks",
+            "albumId": 131,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones, John Bonham, Memphis Minnie"
+        },
+        {
+            "id": 1618,
+            "name": "Good Times Bad Times",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1619,
+            "name": "Babe I'm Gonna Leave You",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1620,
+            "name": "You Shook Me",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "J. B. Lenoir\/Willie Dixon"
+        },
+        {
+            "id": 1621,
+            "name": "Dazed and Confused",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 1622,
+            "name": "Your Time Is Gonna Come",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Paul Jones"
+        },
+        {
+            "id": 1623,
+            "name": "Black Mountain Side",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 1624,
+            "name": "Communication Breakdown",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1625,
+            "name": "I Can't Quit You Baby",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Willie Dixon"
+        },
+        {
+            "id": 1626,
+            "name": "How Many More Times",
+            "albumId": 132,
+            "genreId": 1,
+            "composer": "Jimmy Page\/John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1627,
+            "name": "Whole Lotta Love",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones, John Bonham"
+        },
+        {
+            "id": 1628,
+            "name": "What Is And What Should Never Be",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1629,
+            "name": "The Lemon Song",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones, John Bonham"
+        },
+        {
+            "id": 1630,
+            "name": "Thank You",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1631,
+            "name": "Heartbreaker",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones, John Bonham"
+        },
+        {
+            "id": 1632,
+            "name": "Living Loving Maid (She's Just A Woman)",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1633,
+            "name": "Ramble On",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1634,
+            "name": "Moby Dick",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "John Bonham, John Paul Jones, Jimmy Page"
+        },
+        {
+            "id": 1635,
+            "name": "Bring It On Home",
+            "albumId": 133,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1636,
+            "name": "Immigrant Song",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1637,
+            "name": "Friends",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1638,
+            "name": "Celebration Day",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones"
+        },
+        {
+            "id": 1639,
+            "name": "Since I've Been Loving You",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones"
+        },
+        {
+            "id": 1640,
+            "name": "Out On The Tiles",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Bonham"
+        },
+        {
+            "id": 1641,
+            "name": "Gallows Pole",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Traditional"
+        },
+        {
+            "id": 1642,
+            "name": "Tangerine",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 1643,
+            "name": "That's The Way",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant"
+        },
+        {
+            "id": 1644,
+            "name": "Bron-Y-Aur Stomp",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Jimmy Page, Robert Plant, John Paul Jones"
+        },
+        {
+            "id": 1645,
+            "name": "Hats Off To (Roy) Harper",
+            "albumId": 134,
+            "genreId": 1,
+            "composer": "Traditional"
+        },
+        {
+            "id": 1646,
+            "name": "In The Light",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1647,
+            "name": "Bron-Yr-Aur",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 1648,
+            "name": "Down By The Seaside",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1649,
+            "name": "Ten Years Gone",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1650,
+            "name": "Night Flight",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1651,
+            "name": "The Wanton Song",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1652,
+            "name": "Boogie With Stu",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Ian Stewart\/John Bonham\/John Paul Jones\/Mrs. Valens\/Robert Plant"
+        },
+        {
+            "id": 1653,
+            "name": "Black Country Woman",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1654,
+            "name": "Sick Again",
+            "albumId": 135,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1655,
+            "name": "Achilles Last Stand",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1656,
+            "name": "For Your Life",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1657,
+            "name": "Royal Orleans",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1658,
+            "name": "Nobody's Fault But Mine",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1659,
+            "name": "Candy Store Rock",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1660,
+            "name": "Hots On For Nowhere",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1661,
+            "name": "Tea For One",
+            "albumId": 136,
+            "genreId": 1,
+            "composer": "Jimmy Page\/Robert Plant"
+        },
+        {
+            "id": 1662,
+            "name": "Rock & Roll",
+            "albumId": 137,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1663,
+            "name": "Celebration Day",
+            "albumId": 137,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1664,
+            "name": "The Song Remains The Same",
+            "albumId": 137,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1665,
+            "name": "Rain Song",
+            "albumId": 137,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1666,
+            "name": "Dazed And Confused",
+            "albumId": 137,
+            "genreId": 1,
+            "composer": "Jimmy Page"
+        },
+        {
+            "id": 1667,
+            "name": "No Quarter",
+            "albumId": 138,
+            "genreId": 1,
+            "composer": "John Paul Jones\/Robert Plant"
+        },
+        {
+            "id": 1668,
+            "name": "Stairway To Heaven",
+            "albumId": 138,
+            "genreId": 1,
+            "composer": "Robert Plant"
+        },
+        {
+            "id": 1669,
+            "name": "Moby Dick",
+            "albumId": 138,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones"
+        },
+        {
+            "id": 1670,
+            "name": "Whole Lotta Love",
+            "albumId": 138,
+            "genreId": 1,
+            "composer": "John Bonham\/John Paul Jones\/Robert Plant\/Willie Dixon"
+        },
+        {
+            "id": 1801,
+            "name": "Enter Sandman",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 1802,
+            "name": "Sad But True",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1803,
+            "name": "Holier Than Thou",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1804,
+            "name": "The Unforgiven",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 1805,
+            "name": "Wherever I May Roam",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1806,
+            "name": "Don't Tread On Me",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1807,
+            "name": "Through The Never",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 1808,
+            "name": "Nothing Else Matters",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1809,
+            "name": "Of Wolf And Man",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 1810,
+            "name": "The God That Failed",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1811,
+            "name": "My Friend Of Misery",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Jason Newsted"
+        },
+        {
+            "id": 1812,
+            "name": "The Struggle Within",
+            "albumId": 148,
+            "genreId": 3,
+            "composer": "Ulrich"
+        },
+        {
+            "id": 1813,
+            "name": "Helpless",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Harris\/Tatler"
+        },
+        {
+            "id": 1814,
+            "name": "The Small Hours",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Holocaust"
+        },
+        {
+            "id": 1815,
+            "name": "The Wait",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Killing Joke"
+        },
+        {
+            "id": 1816,
+            "name": "Crash Course In Brain Surgery",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Bourge\/Phillips\/Shelley"
+        },
+        {
+            "id": 1817,
+            "name": "Last Caress\/Green Hell",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Danzig"
+        },
+        {
+            "id": 1818,
+            "name": "Am I Evil?",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Harris\/Tatler"
+        },
+        {
+            "id": 1819,
+            "name": "Blitzkrieg",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Jones\/Sirotto\/Smith"
+        },
+        {
+            "id": 1820,
+            "name": "Breadfan",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Bourge\/Phillips\/Shelley"
+        },
+        {
+            "id": 1821,
+            "name": "The Prince",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Harris\/Tatler"
+        },
+        {
+            "id": 1822,
+            "name": "Stone Cold Crazy",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Deacon\/May\/Mercury\/Taylor"
+        },
+        {
+            "id": 1823,
+            "name": "So What",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Culmer\/Exalt"
+        },
+        {
+            "id": 1824,
+            "name": "Killing Time",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Sweet Savage"
+        },
+        {
+            "id": 1825,
+            "name": "Overkill",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Clarke\/Kilmister\/Tayler"
+        },
+        {
+            "id": 1826,
+            "name": "Damage Case",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Clarke\/Farren\/Kilmister\/Tayler"
+        },
+        {
+            "id": 1827,
+            "name": "Stone Dead Forever",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Clarke\/Kilmister\/Tayler"
+        },
+        {
+            "id": 1828,
+            "name": "Too Late Too Late",
+            "albumId": 149,
+            "genreId": 3,
+            "composer": "Clarke\/Kilmister\/Tayler"
+        },
+        {
+            "id": 1829,
+            "name": "Hit The Lights",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1830,
+            "name": "The Four Horsemen",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Dave Mustaine"
+        },
+        {
+            "id": 1831,
+            "name": "Motorbreath",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield"
+        },
+        {
+            "id": 1832,
+            "name": "Jump In The Fire",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Dave Mustaine"
+        },
+        {
+            "id": 1833,
+            "name": "(Anesthesia) Pulling Teeth",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "Cliff Burton"
+        },
+        {
+            "id": 1834,
+            "name": "Whiplash",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1835,
+            "name": "Phantom Lord",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Dave Mustaine"
+        },
+        {
+            "id": 1836,
+            "name": "No Remorse",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1837,
+            "name": "Seek & Destroy",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1838,
+            "name": "Metal Militia",
+            "albumId": 150,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Dave Mustaine"
+        },
+        {
+            "id": 1839,
+            "name": "Ain't My Bitch",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1840,
+            "name": "2 X 4",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1841,
+            "name": "The House Jack Built",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1842,
+            "name": "Until It Sleeps",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1843,
+            "name": "King Nothing",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1844,
+            "name": "Hero Of The Day",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1845,
+            "name": "Bleeding Me",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1846,
+            "name": "Cure",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1847,
+            "name": "Poor Twisted Me",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1848,
+            "name": "Wasted My Hate",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1849,
+            "name": "Mama Said",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1850,
+            "name": "Thorn Within",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich, Kirk Hammett"
+        },
+        {
+            "id": 1851,
+            "name": "Ronnie",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1852,
+            "name": "The Outlaw Torn",
+            "albumId": 151,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich"
+        },
+        {
+            "id": 1853,
+            "name": "Battery",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "J.Hetfield\/L.Ulrich"
+        },
+        {
+            "id": 1854,
+            "name": "Master Of Puppets",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "K.Hammett"
+        },
+        {
+            "id": 1855,
+            "name": "The Thing That Should Not Be",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "K.Hammett"
+        },
+        {
+            "id": 1856,
+            "name": "Welcome Home (Sanitarium)",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "K.Hammett"
+        },
+        {
+            "id": 1857,
+            "name": "Disposable Heroes",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "J.Hetfield\/L.Ulrich"
+        },
+        {
+            "id": 1858,
+            "name": "Leper Messiah",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "C.Burton"
+        },
+        {
+            "id": 1859,
+            "name": "Orion",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "K.Hammett"
+        },
+        {
+            "id": 1860,
+            "name": "Damage Inc.",
+            "albumId": 152,
+            "genreId": 3,
+            "composer": "K.Hammett"
+        },
+        {
+            "id": 1861,
+            "name": "Fuel",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1862,
+            "name": "The Memory Remains",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1863,
+            "name": "Devil's Dance",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1864,
+            "name": "The Unforgiven II",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1865,
+            "name": "Better Than You",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1866,
+            "name": "Slither",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1867,
+            "name": "Carpe Diem Baby",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1868,
+            "name": "Bad Seed",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1869,
+            "name": "Where The Wild Things Are",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Newsted"
+        },
+        {
+            "id": 1870,
+            "name": "Prince Charming",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1871,
+            "name": "Low Man's Lyric",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1872,
+            "name": "Attitude",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich"
+        },
+        {
+            "id": 1873,
+            "name": "Fixxxer",
+            "albumId": 153,
+            "genreId": 3,
+            "composer": "Hetfield, Ulrich, Hammett"
+        },
+        {
+            "id": 1874,
+            "name": "Fight Fire With Fire",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1875,
+            "name": "Ride The Lightning",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1876,
+            "name": "For Whom The Bell Tolls",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1877,
+            "name": "Fade To Black",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1878,
+            "name": "Trapped Under Ice",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1879,
+            "name": "Escape",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1880,
+            "name": "Creeping Death",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1881,
+            "name": "The Call Of Ktulu",
+            "albumId": 154,
+            "genreId": 3,
+            "composer": "Metallica"
+        },
+        {
+            "id": 1882,
+            "name": "Frantic",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1883,
+            "name": "St. Anger",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1884,
+            "name": "Some Kind Of Monster",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1885,
+            "name": "Dirty Window",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1886,
+            "name": "Invisible Kid",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1887,
+            "name": "My World",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1888,
+            "name": "Shoot Me Again",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1889,
+            "name": "Sweet Amber",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1890,
+            "name": "The Unnamed Feeling",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1891,
+            "name": "Purify",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1892,
+            "name": "All Within My Hands",
+            "albumId": 155,
+            "genreId": 3,
+            "composer": "Bob Rock\/James Hetfield\/Kirk Hammett\/Lars Ulrich"
+        },
+        {
+            "id": 1893,
+            "name": "Blackened",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich & Jason Newsted"
+        },
+        {
+            "id": 1894,
+            "name": "...And Justice For All",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich & Kirk Hammett"
+        },
+        {
+            "id": 1895,
+            "name": "Eye Of The Beholder",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich & Kirk Hammett"
+        },
+        {
+            "id": 1896,
+            "name": "One",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield & Lars Ulrich"
+        },
+        {
+            "id": 1897,
+            "name": "The Shortest Straw",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield and Lars Ulrich"
+        },
+        {
+            "id": 1898,
+            "name": "Harvester Of Sorrow",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield and Lars Ulrich"
+        },
+        {
+            "id": 1899,
+            "name": "The Frayed Ends Of Sanity",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 1900,
+            "name": "To Live Is To Die",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Cliff Burton"
+        },
+        {
+            "id": 1901,
+            "name": "Dyers Eve",
+            "albumId": 156,
+            "genreId": 3,
+            "composer": "James Hetfield, Lars Ulrich and Kirk Hammett"
+        },
+        {
+            "id": 2254,
+            "name": "Bohemian Rhapsody",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2255,
+            "name": "Another One Bites The Dust",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Deacon, John"
+        },
+        {
+            "id": 2256,
+            "name": "Killer Queen",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2257,
+            "name": "Fat Bottomed Girls",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "May, Brian"
+        },
+        {
+            "id": 2258,
+            "name": "Bicycle Race",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2259,
+            "name": "You're My Best Friend",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Deacon, John"
+        },
+        {
+            "id": 2260,
+            "name": "Don't Stop Me Now",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2261,
+            "name": "Save Me",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "May, Brian"
+        },
+        {
+            "id": 2262,
+            "name": "Crazy Little Thing Called Love",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2263,
+            "name": "Somebody To Love",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2264,
+            "name": "Now I'm Here",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "May, Brian"
+        },
+        {
+            "id": 2265,
+            "name": "Good Old-Fashioned Lover Boy",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2266,
+            "name": "Play The Game",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2267,
+            "name": "Flash",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "May, Brian"
+        },
+        {
+            "id": 2268,
+            "name": "Seven Seas Of Rhye",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2269,
+            "name": "We Will Rock You",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Deacon, John\/May, Brian"
+        },
+        {
+            "id": 2270,
+            "name": "We Are The Champions",
+            "albumId": 185,
+            "genreId": 1,
+            "composer": "Mercury, Freddie"
+        },
+        {
+            "id": 2271,
+            "name": "We Will Rock You",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "May"
+        },
+        {
+            "id": 2272,
+            "name": "We Are The Champions",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Mercury"
+        },
+        {
+            "id": 2273,
+            "name": "Sheer Heart Attack",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Taylor"
+        },
+        {
+            "id": 2274,
+            "name": "All Dead, All Dead",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "May"
+        },
+        {
+            "id": 2275,
+            "name": "Spread Your Wings",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Deacon"
+        },
+        {
+            "id": 2276,
+            "name": "Fight From The Inside",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Taylor"
+        },
+        {
+            "id": 2277,
+            "name": "Get Down, Make Love",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Mercury"
+        },
+        {
+            "id": 2278,
+            "name": "Sleep On The Sidewalk",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "May"
+        },
+        {
+            "id": 2279,
+            "name": "Who Needs You",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Deacon"
+        },
+        {
+            "id": 2280,
+            "name": "It's Late",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "May"
+        },
+        {
+            "id": 2281,
+            "name": "My Melancholy Blues",
+            "albumId": 186,
+            "genreId": 1,
+            "composer": "Mercury"
+        },
+        {
+            "id": 2406,
+            "name": "The Spirit Of Radio",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2407,
+            "name": "The Trees",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2408,
+            "name": "Something For Nothing",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2409,
+            "name": "Freewill",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2410,
+            "name": "Xanadu",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2411,
+            "name": "Bastille Day",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2412,
+            "name": "By-Tor And The Snow Dog",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2413,
+            "name": "Anthem",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2414,
+            "name": "Closer To The Heart",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2415,
+            "name": "2112 Overture",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2416,
+            "name": "The Temples Of Syrinx",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2417,
+            "name": "La Villa Strangiato",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2418,
+            "name": "Fly By Night",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2419,
+            "name": "Finding My Way",
+            "albumId": 196,
+            "genreId": 1,
+            "composer": "Geddy Lee And Alex Lifeson\/Geddy Lee And Neil Peart\/Rush"
+        },
+        {
+            "id": 2731,
+            "name": "I Can't Explain",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2732,
+            "name": "Anyway, Anyhow, Anywhere",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend, Roger Daltrey"
+        },
+        {
+            "id": 2733,
+            "name": "My Generation",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle\/Pete Townshend"
+        },
+        {
+            "id": 2734,
+            "name": "Substitute",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2735,
+            "name": "I'm A Boy",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2736,
+            "name": "Boris The Spider",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle"
+        },
+        {
+            "id": 2737,
+            "name": "Happy Jack",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2738,
+            "name": "Pictures Of Lily",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2739,
+            "name": "I Can See For Miles",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2740,
+            "name": "Magic Bus",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2741,
+            "name": "Pinball Wizard",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle\/Pete Townshend"
+        },
+        {
+            "id": 2742,
+            "name": "The Seeker",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2743,
+            "name": "Baba O'Riley",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle\/Pete Townshend"
+        },
+        {
+            "id": 2744,
+            "name": "Won't Get Fooled Again (Full Length Version)",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle\/Pete Townshend"
+        },
+        {
+            "id": 2745,
+            "name": "Let's See Action",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2746,
+            "name": "5.15",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2747,
+            "name": "Join Together",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2748,
+            "name": "Squeeze Box",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        },
+        {
+            "id": 2749,
+            "name": "Who Are You (Single Edit Version)",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "John Entwistle\/Pete Townshend"
+        },
+        {
+            "id": 2750,
+            "name": "You Better You Bet",
+            "albumId": 221,
+            "genreId": 1,
+            "composer": "Pete Townshend"
+        }
+    ]
+}

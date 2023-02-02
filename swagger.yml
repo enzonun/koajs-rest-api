@@ -1,0 +1,19 @@
+    swagger: "2.0"
+    info:
+      title: KoaJS-Rest-API
+      description: API description.
+      version: 1.0.0
+    host: 127.0.0.1
+    basePath: /api/v1
+    schemes:
+      - https
+    paths:
+      /users/signup:
+        post:
+          summary: Signup a new user.
+          description: Creates a new user.
+          produces:
+            - application/json
+          responses:
+            200:
+              description: OK
